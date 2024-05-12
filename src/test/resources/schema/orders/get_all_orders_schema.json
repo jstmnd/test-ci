@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Product": {
+            "type": "string"
+          },
+          "Price": {
+            "type": "number"
+          },
+          "Quantity": {
+            "type": "number"
+          },
+          "Subtotal": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "Product",
+          "Price",
+          "Quantity",
+          "Subtotal"
+        ]
+      }
+    }
+  },
+  "required": [
+    "data"
+  ]
+}
